@@ -21,7 +21,6 @@ GitHub publishes `index.html` at `/portfolio/`.
 - `cv.html` — web CV with browser print-to-PDF support
 - `README.md` — repository overview
 - `assets/profile.jpg` — hero portrait
-- `assets/bimebazar-data-team.jpg` — featured work photo
 - `assets/og-image.jpg` — Open Graph image
 - `assets/favicon.svg` — AN mark
 - `assets/ali-nobahari-cv.pdf` — downloadable CV
