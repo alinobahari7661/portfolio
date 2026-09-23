@@ -1,22 +1,10 @@
 # GitHub Pages deployment
 
-## 1. Create the repository
+Live URL: https://alinobahari7661.github.io/portfolio/
 
-For the main personal site, create:
+Repository name: `portfolio` (project site, not `username.github.io`).
 
-`YOUR_GITHUB_USERNAME.github.io`
-
-Upload the contents of this folder to the repository root.
-
-## 2. Replace placeholders
-
-Before publishing:
-
-- Replace `https://github.com/` with your actual GitHub profile URL.
-- Replace `https://www.linkedin.com/` with your actual LinkedIn profile URL.
-- If desired, replace the email address with the public email you want to expose.
-
-## 3. Enable GitHub Pages
+## Enable GitHub Pages
 
 Repository → Settings → Pages
 
@@ -24,16 +12,22 @@ Repository → Settings → Pages
 - Branch: `main`
 - Folder: `/ (root)`
 
-GitHub will publish `index.html`.
+GitHub publishes `index.html` at `/portfolio/`.
 
-## 4. Optional custom domain
-
-A custom domain can be added later from the Pages settings.
-
-## Files
+## Files that ship
 
 - `index.html` — portfolio homepage
 - `styles.css` — visual system and responsive layout
 - `cv.html` — web CV with browser print-to-PDF support
-- `README.md` — GitHub profile README content
-- `assets/profile.png` — supplied professional portrait
+- `README.md` — repository overview
+- `assets/profile.jpg` — hero portrait
+- `assets/bimebazar-data-team.jpg` — featured work photo
+- `assets/og-image.jpg` — Open Graph image
+- `assets/favicon.svg` — AN mark
+- `assets/ali-nobahari-cv.pdf` — downloadable CV
+
+Sports-team photos and original uncompressed files stay local and are gitignored.
+
+## Rename note
+
+If the previous repo was `Ali-Nobahari`, rename it to `portfolio` with `gh repo rename portfolio`. GitHub keeps a redirect from the old Pages path.
