@@ -99,13 +99,18 @@ h3 { margin: 0 0 8px; line-height: 1.25; }
 .hero-photo-wrap {
   width: 100%;
   max-width: 400px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   border: 1px solid var(--line);
   background: #e8e7e1;
   line-height: 0;
 }
 .hero-photo {
   width: 100%;
-  height: auto;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
   display: block;
 }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -243,7 +248,7 @@ footer {
     padding-top: 40px;
   }
   .hero-photo-wrap {
-    width: min(42vw, 168px);
+    width: min(56vw, 220px);
     justify-self: start;
   }
   .hero-name { margin-bottom: 10px; }
