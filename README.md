@@ -1,12 +1,12 @@
 # Ali Nobahari
 
-### Analytics / Data Platform Engineer
+### Lead / Principal Data Analytics Engineer
 
 Portfolio site for [alinobahari7661.github.io/portfolio](https://alinobahari7661.github.io/portfolio/).
 
-I design and build data platforms, analytical systems, and business intelligence solutions from data ingestion to decision-making.
+I turn complex data environments into platforms, models and systems that teams can actually decide with.
 
-Work spans **data infrastructure, analytics engineering, data warehousing, ETL, BI, OLAP, automation, and data analysis**.
+Work spans **data architecture, analytics engineering, data warehousing, ETL, BI, OLAP, automation, and cross-functional leadership**.
 
 ---
 
